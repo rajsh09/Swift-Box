@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		924D3E8019A11CB300749A76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924D3E7F19A11CB300749A76 /* LoginViewController.swift */; };
 		92D8035519A0EC9900AEE9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8035419A0EC9900AEE9D5 /* AppDelegate.swift */; };
 		92D8035819A0EC9900AEE9D5 /* Swift_Box.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92D8035619A0EC9900AEE9D5 /* Swift_Box.xcdatamodeld */; };
 		92D8035A19A0EC9900AEE9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8035919A0EC9900AEE9D5 /* ViewController.swift */; };
-		92D8035D19A0EC9900AEE9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D8035B19A0EC9900AEE9D5 /* Main.storyboard */; };
 		92D8035F19A0EC9900AEE9D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D8035E19A0EC9900AEE9D5 /* Images.xcassets */; };
 		92D8036B19A0EC9900AEE9D5 /* Swift_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8036A19A0EC9900AEE9D5 /* Swift_BoxTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,12 +26,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		924D3E7F19A11CB300749A76 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		92D8034F19A0EC9900AEE9D5 /* Swift-Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D8035319A0EC9900AEE9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92D8035419A0EC9900AEE9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92D8035719A0EC9900AEE9D5 /* Swift_Box.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swift_Box.xcdatamodel; sourceTree = "<group>"; };
 		92D8035919A0EC9900AEE9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92D8035C19A0EC9900AEE9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92D8035E19A0EC9900AEE9D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92D8036419A0EC9900AEE9D5 /* Swift-BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D8036919A0EC9900AEE9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			children = (
 				92D8035419A0EC9900AEE9D5 /* AppDelegate.swift */,
 				92D8035919A0EC9900AEE9D5 /* ViewController.swift */,
-				92D8035B19A0EC9900AEE9D5 /* Main.storyboard */,
+				924D3E7F19A11CB300749A76 /* LoginViewController.swift */,
 				92D8035E19A0EC9900AEE9D5 /* Images.xcassets */,
 				92D8035619A0EC9900AEE9D5 /* Swift_Box.xcdatamodeld */,
 				92D8035219A0EC9900AEE9D5 /* Supporting Files */,
@@ -192,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D8035D19A0EC9900AEE9D5 /* Main.storyboard in Resources */,
 				92D8035F19A0EC9900AEE9D5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924D3E8019A11CB300749A76 /* LoginViewController.swift in Sources */,
 				92D8035A19A0EC9900AEE9D5 /* ViewController.swift in Sources */,
 				92D8035519A0EC9900AEE9D5 /* AppDelegate.swift in Sources */,
 				92D8035819A0EC9900AEE9D5 /* Swift_Box.xcdatamodeld in Sources */,
@@ -234,17 +234,6 @@
 			targetProxy = 92D8036519A0EC9900AEE9D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		92D8035B19A0EC9900AEE9D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92D8035C19A0EC9900AEE9D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92D8036C19A0EC9900AEE9D5 /* Debug */ = {
@@ -403,6 +392,7 @@
 				92D8037019A0EC9900AEE9D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92D8037119A0EC9900AEE9D5 /* Build configuration list for PBXNativeTarget "Swift-BoxTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +401,7 @@
 				92D8037319A0EC9900AEE9D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
